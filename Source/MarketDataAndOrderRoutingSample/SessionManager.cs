@@ -421,7 +421,7 @@ namespace WebAppClient
             logon1.ProtocolVersionMinor = ((uint)WebAPI2.ProtocolVersionMinor.ProtocolVersionMinor);
             WebAPI2.ClientMsg clientMessage1 = new WebAPI2.ClientMsg();
             clientMessage1.Logon = logon1;
-            sendMessage1(clientMessage1);
+            sendMessage(clientMessage1);
 
             //Logon logon = new Logon();
             //logon.user_name = m_Username;
@@ -459,7 +459,7 @@ namespace WebAppClient
             throw new Exception("Message sending error " + ex.Message);
          }
       }
-        private void sendMessage1(WebAPI2.ClientMsg msg)
+        private void sendMessage(WebAPI2.ClientMsg msg)
         {
             try
             {
