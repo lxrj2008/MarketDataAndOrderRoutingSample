@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33529.622
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketDataAndOrderRoutingSample", "MarketDataAndOrderRoutingSample\MarketDataAndOrderRoutingSample.csproj", "{D2655ABE-5C8D-4618-9AE8-15294F648EF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf_demo", "protobuf_demo\protobuf_demo.csproj", "{27E0DEA5-1BAB-4208-85E3-1342D96B7345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQGDEMO_CSharp", "..\..\CQGDEMO_CSharp\CQGDEMO_CSharp.csproj", "{CDC3A98C-1C05-4A00-9357-F2B6819F051E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{27E0DEA5-1BAB-4208-85E3-1342D96B7345}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27E0DEA5-1BAB-4208-85E3-1342D96B7345}.Release|x86.ActiveCfg = Release|Any CPU
 		{27E0DEA5-1BAB-4208-85E3-1342D96B7345}.Release|x86.Build.0 = Release|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Debug|x86.Build.0 = Debug|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Release|x86.ActiveCfg = Release|Any CPU
+		{CDC3A98C-1C05-4A00-9357-F2B6819F051E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

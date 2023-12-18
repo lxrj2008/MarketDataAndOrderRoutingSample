@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="Username" Type="System.String" Scope="User">
-      <Value Profile="(Default)">DEMO</Value>
+      <Value Profile="(Default)">ShanghaiDAWAPI</Value>
     </Setting>
     <Setting Name="Password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">DEMO</Value>
+      <Value Profile="(Default)">TestOne</Value>
     </Setting>
     <Setting Name="Host" Type="System.String" Scope="User">
       <Value Profile="(Default)">wss://demoapi.cqg.com:443</Value>
